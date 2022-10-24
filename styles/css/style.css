@@ -254,6 +254,23 @@ main {
   margin-bottom: 27rem;
 }
 
+.project__link {
+  margin-bottom: 130px;
+  display: inline-block;
+  padding: 13px 36px;
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  display: inline-block;
+  font-weight: 500;
+  margin-top: 50px;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 500px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
 .our__project {
   background-color: #F6F6F8;
 }
@@ -279,4 +296,25 @@ main {
   display: flex;
   justify-content: space-around;
   padding-top: 70px;
+}
+
+.video__section {
+  background-image: url(/images/video\ work\ image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.video__section .title__video {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 70px;
+}
+.video__section p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 30px;
+  padding-bottom: 460px;
 }/*# sourceMappingURL=style.css.map */
