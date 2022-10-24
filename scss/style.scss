@@ -1,8 +1,9 @@
 body{
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
     font-family: 'Montserrat', sans-serif;
-    
 }
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');    
+
+
 *{
     margin: 0;
     padding: 0;
@@ -46,6 +47,49 @@ ul{
 
 // finish navbar
 
+
 // start header
 
+.hero{
+    padding-top: 219px;
+    .header__text{
+        h4{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #FFFFFF;
+            padding-top: 20px;
+        }
+        .header__title{
+            font-style: normal;
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 64px;
+            text-align: center;
+            color: #FFFFFF;
+            padding-bottom: 50px;
+        }
+        a{
+            padding: 13px 36px;
+            background: #4985FF;
+            box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+            border-radius: 30px;
+            display: inline-block;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-left: 500px;
+            margin-bottom: 330px;
+        }
+    }
+}
+
 // finish header
+
+// start service section
+
+// finish service section
+
