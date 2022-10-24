@@ -171,7 +171,7 @@ main{
 .main__section{
     display: flex;
     padding-top: 152px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .main__title{
     font-weight: 700;
@@ -203,3 +203,68 @@ main{
 }
 // finish main section
 
+// start section about work
+
+.about__work{
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+    padding-top: 100px;
+    position: relative;
+    height: 490px;
+}
+
+.card__text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h3{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 53px;
+        color: #FFFFFF;
+        padding-bottom: 70px;
+    }
+    a{
+        padding: 13px 36px;
+        background: #4985FF;
+        box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+        border-radius: 30px;
+        display: inline-block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        display: inline-block
+    }
+}
+
+.about__work-cards{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 50%;
+}
+.about__card{
+    h4{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        padding: 30px 0;
+        span{
+            color: #4985FF;
+        }
+    }
+    p{
+        padding-bottom: 30px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #999999;
+
+    }
+    a{
+        padding-bottom: 170px;
+    }
+}
+
+// finish section about work
