@@ -206,10 +206,9 @@ main{
 // start section about work
 
 .about__work{
-    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
     padding-top: 100px;
-    position: relative;
     height: 490px;
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
 }
 
 .card__text{
@@ -228,21 +227,18 @@ main{
         background: #4985FF;
         box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
         border-radius: 30px;
-        display: inline-block;
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
         text-align: center;
         color: #FFFFFF;
-        display: inline-block
+        margin-right: 45px;
     }
 }
 
 .about__work-cards{
     display: flex;
-    justify-content: space-around;
-    position: absolute;
-    top: 50%;
+    justify-content: space-between;
 }
 .about__card{
     h4{
@@ -266,5 +262,40 @@ main{
         padding-bottom: 170px;
     }
 }
+.about__work{
+    margin-bottom:27rem;
+}
+
 
 // finish section about work
+
+
+// <!-- start section our projects -->
+
+.our__project{
+    background-color: 
+    #F6F6F8;
+}
+
+.title__project{
+    font-weight: 700;
+    padding-top: 100px;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+}
+.description__project{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    padding-top: 50px;
+}
+.project__images{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+    
+// <!-- finish section our projects -->
