@@ -19,15 +19,16 @@ ul{
 }
 
 // start navbar
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
 
 .header__bgi{
     background-image: url(/images/header__background-image.png);
     background-repeat: no-repeat;
     background-size: cover;
-    .container{
-        width: 1200px;
-        margin: 0 auto;
-    }
+  
     .nav__item{
         display: flex;
         justify-content:flex-end;
@@ -70,7 +71,7 @@ ul{
             color: #FFFFFF;
             padding-bottom: 50px;
         }
-        a{
+        .header__link{
             padding: 13px 36px;
             background: #4985FF;
             box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
@@ -90,6 +91,79 @@ ul{
 // finish header
 
 // start service section
+.service{
+    padding-top: 110px;
+    h2{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 53px;
+        text-align: center;
+        color: #323232;
+        padding-bottom: 50px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        color: #999999;
+        padding-bottom: 70px;
+    }
+}
+
+.card1__image{
+    margin: 10px;
+    position: relative;
+    border-radius:  50px;
+    border: 1px solid #E0E0E0;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 50px;
+}
+.project{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.service__cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card1__text{
+    height: 3px;
+    h3{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    p{
+        text-align-last: left;
+        padding-top: 12px;
+    }
+}
+.header__link{
+    padding: 13px 36px;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 500px;
+    margin-top: 55px;
+
+}
 
 // finish service section
+
+// start main section
+
+
+
+// finish main section
 
