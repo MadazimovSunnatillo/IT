@@ -162,8 +162,44 @@ ul{
 // finish service section
 
 // start main section
+main{
+    margin-top: 105px;
+    background-color: 
+    #F6F6F8;
+}
 
-
-
+.main__section{
+    display: flex;
+    padding-top: 152px;
+    justify-content: space-between;
+}
+.main__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-align-last: left;
+    color: #323232;
+}
+.main__description{
+    width: 489px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    padding-bottom: 30px;
+}
+.main__link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #4985FF;
+}
+.main__project{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0;
+}
 // finish main section
 
