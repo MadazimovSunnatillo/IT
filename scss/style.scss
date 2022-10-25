@@ -8,6 +8,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
@@ -322,6 +323,7 @@ main{
     background-image: url(/images/video\ work\ image.png);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     .title__video{
         font-weight: 700;
         font-size: 36px;
@@ -338,7 +340,36 @@ main{
         padding-bottom: 460px;
     }
 }
-
+.video{
+    position: relative;
+    bottom: 350px;
+    left: 5%;
+    a{
+        display: inline-block;
+        position: absolute;
+        z-index: 1;
+        left: 23%;
+        bottom: 35%;
+        padding: 40px 120px;
+        border: 1px solid #FFFFFF;
+        border-radius: 200px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        span{
+            font-size: 40px;
+            display: flex;
+            align-items: center;
+            padding: 8px 15px;
+            border-radius: 100%;
+            background-color: #fff;
+            color:  #4985FF;
+            margin-right: 21px;
+        }
+    }
+}
 
 // <!-- finish video section -->
 
